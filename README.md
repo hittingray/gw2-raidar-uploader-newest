@@ -36,7 +36,7 @@ If there is interest in this tool, I have a couple more additions which I would 
 At this point in time, I have no intention of writing a hook into the GW2 client. Although it may be slightly more convenient for the end user, a batch file or PowerShell script has numerous advantages:
 
 - It is transparent. The end users can easily verify that I am not stealing their passwords. 
-- It is open source. Current hooks into client are not allowed to share their code due to ArenaNet's policies. This also prevents the users from believing their personal information, including passwords are being stolen in a closed source .dll.
+- It is open source. Current hooks into the client are not allowed to share their code due to ArenaNet's policies. This also prevents the users from believing their personal information, including passwords, is bring stolen in a closed source .dll.
 - I don't have the time to maintain a hook into the client anyway. Game updates break these hooks regularly and/or crash clients. 
 
 ## Acknowledgements ##
