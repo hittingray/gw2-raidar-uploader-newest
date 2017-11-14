@@ -22,7 +22,7 @@ The first time set up of this script requires you to input your GW2 username and
 
 Simply double click the UploadNewestToRaidar.bat to run the script, and all the newest logs from each boss will be uploaded. 
 
-Please be aware that this tool simply uploads the files to GW2 Raidar and does not track them any further. Analysis of logs may take a long time, and there will be a delay before they are available on the website for viewing.
+Please be aware that this tool simply uploads the files to GW2 Raidar and does not track them any further. Analysis of logs may take a long time, and there may be a delay before they are available on the website for viewing.
 
 ## Future updates ##
 
