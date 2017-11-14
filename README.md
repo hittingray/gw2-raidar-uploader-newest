@@ -14,6 +14,8 @@ Download the current release of this script and extract it to the base folder of
 
 If you are updating from a previous version, only copy `UploadNewestToRaidar.bat` and `curl.exe`. Copying `settings.txt` will overwrite your settings file and you will have to re-enter your username and password.
 
+If you are paranoid about your username/password, you may verify that my included version of curl is the same as documented in the release notes via a checksum, or you may download it again yourself. 
+
 ## Usage ##
 The first time set up of this script requires you to input your GW2 username and password into `settings.txt`. The fields are currently blank and your username and password should be put after the =. Example:
 
@@ -30,6 +32,12 @@ If there is interest in this tool, I have a couple more additions which I would 
 
 - A version which tracks which logs have not been uploaded since the last time the script was run
 - Another version which tracks new logs while the script is running and automatically uploads them
+
+At this point in time, I have no intention of writing a hook into the GW2 client. Although it may be slightly more convenient for the end user, a batch file or PowerShell script has numerous advantages:
+
+- It is transparent. The end users can easily verify that I am not stealing their passwords. 
+- It is open source. Current hooks into client are not allowed to share their code due to ArenaNet's policies. This also prevents the users from believing their personal information, including passwords are being stolen in a closed source .dll.
+- I don't have the time to maintain a hook into the client anyway. Game updates break these hooks regularly and/or crash clients. 
 
 ## Acknowledgements ##
 
