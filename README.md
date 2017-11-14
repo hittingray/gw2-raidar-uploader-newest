@@ -18,6 +18,13 @@ Simply double click the UploadNewestToRaidar.bat to run the script, and all the 
 
 Please be aware that this tool simply uploads the files to GW2 Raidar and does not track them any further. Analysis of logs may take a long time, and there will be a delay before they are available on the website for viewing.
 
+## Future updates ##
+
+If there is interest in this tool, I have a couple more additions which I would like to add:
+
+- A version which tracks which logs have not been uploaded since the last time the script was run can be made.
+- Another version which tracks new logs while it is open and automatically uploads them. 
+
 ## Acknowledgements ##
 
 This script requires the use of curl, which is distributed under the curl license, and the appropriate licensing documents can be found in the repository as curl_docs.zip.
