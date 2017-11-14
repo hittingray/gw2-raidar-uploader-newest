@@ -12,7 +12,13 @@ Download the current release of this script and extract it to the base folder of
 
     C:\Users\USERNAME\Documents\Guild Wars 2\addons\arcdps\arcdps.cbtlogs
 
+If you are updating from a previous version, only copy `UploadNewestToRaidar.bat` and `curl.exe`. Copying `settings.txt` will overwrite your settings file and you will have to re-enter your username and password.
+
 ## Usage ##
+The first time set up of this script requires you to input your GW2 username and password into `settings.txt`. The fields are currently blank and your username and password should be put after the =. Example:
+
+    username=hittingray
+    password=gw2raidar
 
 Simply double click the UploadNewestToRaidar.bat to run the script, and all the newest logs from each boss will be uploaded. 
 
