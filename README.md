@@ -28,8 +28,8 @@ Please be aware that this tool simply uploads the files to GW2 Raidar and does n
 
 If there is interest in this tool, I have a couple more additions which I would like to add:
 
-- A version which tracks which logs have not been uploaded since the last time the script was run can be made.
-- Another version which tracks new logs while it is open and automatically uploads them. 
+- A version which tracks which logs have not been uploaded since the last time the script was run
+- Another version which tracks new logs while the script is running and automatically uploads them
 
 ## Acknowledgements ##
 
