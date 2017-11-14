@@ -20,11 +20,12 @@ set list="Vale Guardian" "Gorseval the Multifarious" "Sabetha the Saboteur" "Slo
 	for /f "tokens=*" %%a in ('dir /b /od') do set newest=%%a
 	echo.
 	echo Now uploading %%~b log to GW2 Raidar.
-	curl -F "username=%username%" -F "password=%password%" -F "file=@%launchdir%%%~b\!newest!" -o progress https://www.gw2raidar.com/api/upload.json --progress-bar
+	curl -F "username=%username%" -F "password=%password%" -F "file=@%launchdir%%%~b\!newest!" -o "%launchdir%\progress" https://www.gw2raidar.com/api/upload.json --progress-bar
 	echo.
 	popd
 ))
 
+del "%launchdir%\progress"
 echo.
 echo Newest logs for each boss have been uploaded to GW2 Raidar. Now exiting.
 timeout /T 1 > nul
