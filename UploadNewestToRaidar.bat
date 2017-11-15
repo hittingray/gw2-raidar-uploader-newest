@@ -1,7 +1,7 @@
 @echo off
 
 :: Set window title, launch directory
-title Upload newest logs to Raidar
+title Upload newest logs to Raidar v1.1
 set "launchdir=%~dp0"
 setlocal enabledelayedexpansion enableextensions
 echo.
@@ -17,7 +17,7 @@ if "%username%." == "." goto blank
 if "%password%." == "." goto blank
 
 :: Boss list
-set list="Bob" "Vale Guardian" "Gorseval the Multifarious" "Sabetha the Saboteur" "Slothasor" "Matthias Gabrel" "Keep Construct" "Xera" "Cairn the Indomitable" "Mursaat Overseer" "Samarog" "Deimos"
+set list="Vale Guardian" "Gorseval the Multifarious" "Sabetha the Saboteur" "Slothasor" "Matthias Gabrel" "Keep Construct" "Xera" "Cairn the Indomitable" "Mursaat Overseer" "Samarog" "Deimos"
 
 :: Iterate through bosses by selecting newest log in each folder
 (for %%b in (%list%) do (
