@@ -24,7 +24,7 @@ The first time set up of this script requires you to input your GW2 username and
 
 Simply double click the UploadNewestToRaidar.bat to run the script, and all the newest logs from each boss will be uploaded. 
 
-Please be aware that this tool simply uploads the files to GW2 Raidar and does not track them any further. Analysis of logs may take a long time, and there may be a delay before they are available on the website for viewing.
+Please be aware that this tool simply uploads the files to GW2 Raidar and does not track them any further. Analysis of logs may take a long time, and there may be a delay before they are available on the website for viewing. As such, if your log is found to be invalid during analysis, this tool will not be able detect it.
 
 ## Future updates ##
 
@@ -36,7 +36,7 @@ If there is interest in this tool, I have a couple more additions which I would 
 At this point in time, I have no intention of writing a hook into the GW2 client. Although it may be slightly more convenient for the end user, a batch file or PowerShell script has numerous advantages:
 
 - It is transparent. The end users can easily verify that I am not stealing their passwords. 
-- It is open source. Current hooks into the client are not allowed to share their code due to ArenaNet's policies. This also prevents the users from believing their personal information, including passwords, is bring stolen in a closed source .dll.
+- It is open source. Current hooks into the client are not allowed to share their code due to ArenaNet's policies. This also prevents the users from believing their personal information, including passwords, is being stolen in a closed source .dll.
 - I don't have the time to maintain a hook into the client anyway. Game updates break these hooks regularly and/or crash clients. 
 - Saves me compiling binaries and ensuring they run across multiple versions of Windows.
 
