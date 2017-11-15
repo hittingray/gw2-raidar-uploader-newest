@@ -77,7 +77,7 @@ exit
 
 :500
 echo.
-echo. Something went wrong on GW2 Raidar's side. Please try again later. If the issue persists, please contact the GW2 Raidar team.
+echo Something went wrong on GW2 Raidar's side. Please try again later. If the issue persists, please contact the GW2 Raidar team.
 call :cleanup
 pause
 exit
