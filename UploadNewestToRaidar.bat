@@ -17,7 +17,7 @@ if "%username%." == "." goto blank
 if "%password%." == "." goto blank
 
 :: Boss list
-set list="Vale Guardian" "Gorseval the Multifarious" "Sabetha the Saboteur" "Slothasor" "Matthias Gabrel" "Keep Construct" "Xera" "Cairn the Indomitable" "Mursaat Overseer" "Samarog" "Deimos"
+set list="Vale Guardian" "Gorseval the Multifarious" "Sabetha the Saboteur" "Slothasor" "Matthias Gabrel" "Keep Construct" "Xera" "Cairn the Indomitable" "Mursaat Overseer" "Samarog" "Deimos" "Soulless Horror" "Dhuum"
 
 :: Iterate through bosses by selecting newest log in each folder
 (for %%b in (%list%) do (
