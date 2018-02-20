@@ -17,7 +17,7 @@ If you are updating from a previous version, only copy `UploadNewestToRaidar.bat
 If you are paranoid about your username/password, you may verify that my included version of curl is the same as documented in the release notes via a checksum, or you may download it again yourself. 
 
 ## Usage ##
-The first time set up of this script requires you to input your GW2 username and password into `settings.txt`. The fields are currently blank and your username and password should be put after the =. Example:
+The first time set up of this script requires you to input your GW2 Raidar username and password into `settings.txt`. The fields are currently blank and your username and password should be put after the =. Example:
 
     username=hittingray
     password=gw2raidar
